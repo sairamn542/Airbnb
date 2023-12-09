@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="app">
       <Router>
+        
         <Header />
         <Routes>
           <Route path='/search' element={<SearchPage />} />

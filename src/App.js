@@ -5,6 +5,8 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import SearchPage from './Components/SearchPage'
 import { BrowserRouter as Router, Route ,Routes } from 'react-router-dom';
+import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/theme/default.css';
 
 function App() {
   return (
